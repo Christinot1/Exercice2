@@ -1,0 +1,313 @@
+*, ::before, ::after{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 110vh;
+    background-image: url(assets/img2/header_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+header .accueil{
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+
+}
+header .accueil li{
+    margin: 0 25px;
+}
+header .accueil li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.container-text {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: calc(50vh - 0px);
+   align-items: center;
+   font-family: Raleway, Arial, sans-serif;
+}
+.container-text h1{
+   color: #f9f9f9;
+   font-size: 40px;
+   text-transform: capitalize;
+   font-family: Raleway, Arial, sans-serif;
+   margin-right: 3%;
+}
+.container-text #p1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    color: #3d9f96;
+    margin-right: 5%;
+}
+.container-text #p2 {
+    font-size: 18px;
+    color: #7e7e7e;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.container-text a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #3d9f96;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: 1,5s;
+    font-family: Raleway, Arial, sans-serif;
+    background: #3d9f96;
+    margin-right: 4%;
+}
+.container-text a:hover{
+    letter-spacing: 1px;
+}
+.logo{
+    position: relative;
+    width: 27%;
+    margin-left: 2%;
+}
+.container-image{
+    padding-top: -5%;
+    align-items: center;
+    width: 55%;
+    margin-left: 21%;
+    height: 55%;
+    
+}
+.get{
+    margin-left: 10%;
+    color: #3d9f96;
+    font-size: 20px;
+}
+#socialmedia{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(40vh - 0px);
+    align-items: center;
+    position: relative;
+}
+.socialtexte{
+    position: relative;
+    margin-top: -5%;
+    color: #3d9f96;
+    margin-bottom: 5%;
+    font-family: Raleway, Arial, sans-serif;
+    margin-right: 3%;
+}
+.socialimage {
+    font-size: 1200%;
+    justify-content: center;
+    margin-left: -3%;
+    position: relative;
+    margin-top: -12%;
+}
+#check{
+    background-image: url(assets/img2/map_bg.png);
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 12%;
+}
+.h2{
+    position: relative;
+    font-family: Raleway, Arial, sans-serif;
+    margin-top: -100%;
+    margin-left: 10%;
+}
+.p3{
+    padding-bottom: 40px;
+    margin-bottom: 5%;;
+    margin-top: 5%;
+    margin-left: -5%;
+    font-family: Raleway, Arial, sans-serif;
+}
+
+    
+.awsome{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-right: 4%;
+    font-family: Raleway, Arial, sans-serif;
+}
+.awesomness{
+    padding-right: 150px;
+}
+.skills{
+    padding-left: 100px;
+}
+
+.iphone{
+    margin-top: -5%;
+    margin-left: -1%;
+    position: absolute;
+    width: 260px;
+    top: 10px;
+}
+.play{
+    position: absolute;
+    top: 40%;
+    justify-content: center;
+    left: 43%;
+}
+.list{
+    margin-bottom: 20px;
+}
+#text{
+    margin-bottom: 25px;
+    
+}
+.screenshot{
+    position: relative;
+    background: #f9f9f9;
+    background-attachment: fixed;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.screenshot1{
+    margin: 2%;
+}
+figcaption{
+    font-family: Raleway, Arial, sans-serif;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+
+}
+.best{
+    float: left;
+    margin-top: -5%;
+    font-family: Raleway, Arial, sans-serif;
+    margin-left: 24%;
+}
+.h4{
+    padding-bottom: 2px;
+    position: relative;
+    top: 300%;
+    left: 2%;
+}
+.ligne{
+    color:#7e7e7e;
+}
+#p2{
+    text-align: center;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #f9f9f9;
+    padding-top: 80px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: Raleway, Arial, sans-serif;
+}
+.main-content{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 19%;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.box .foot{
+    width: 200px;
+}
+.footer-copyright{
+    display: flex;
+    background: #FFFFFF;
+    background-size: cover;
+    height: 50px;
+}
+.icon{
+    float: right;
+    margin-left: 20%;
+    margin-top: 18px;
+}
+.copy{
+    margin-left: 20%;
+    margin-top: 18px;
+}
+.see{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10%;
+    position: relative;
+    font-family: Raleway, Arial, sans-serif;
+}
+.visit{
+    display: flex;
+    margin-left: 2%;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: Raleway, Arial, sans-serif;
+}
+.play2{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+.john{
+    background-image: url(assets/img2/seperator1-.jpg);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7%;
+    margin-left: -5%;
+    font-family: Raleway, Arial, sans-serif;
+}
+.section7 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #3d9f96;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 1,5s;
+    font-family: Raleway, Arial, sans-serif;
+    background: #3d9f96;
+    margin-right: 4%;
+}
+.avatar{
+    margin-top: -5%</div>;
+}
+.john-do{
+    color: #3d9f96;
+    font-family: Raleway, Arial, sans-serif;
+}
+@media all and (max-whidth: 480px){
+    .get{
+        display: none;
+    }
+    .container-text a{
+          text-transform: uppercase;
+    }
+}
